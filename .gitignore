@@ -21,7 +21,6 @@ local.properties
 .settings/
 .loadpath
 .gradle/
-gradle/**
 test-output/**
 build/**
 

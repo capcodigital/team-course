@@ -6,7 +6,6 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.2.RELEASE")
     }
 }
-
 plugins {
   id "com.palantir.docker" version "0.19.2"
 }
