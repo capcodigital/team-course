@@ -10,7 +10,7 @@ plugins {
   id "com.palantir.docker" version "0.19.2"
 }
 
-group = 'capcodigital'
+group = 'manucapco'
 
 apply plugin: 'java-library'
 apply plugin: 'org.springframework.boot'
@@ -23,7 +23,7 @@ repositories {
 }
 
 bootJar {
-    baseName = 'digital-engineering-rest-service'
+    baseName = 'digitalengineeringcourse'
     version =  '0.1.0'
 }
 
