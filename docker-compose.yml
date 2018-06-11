@@ -149,3 +149,34 @@ services:
     restart: unless-stopped
     depends_on:
       - zoo1
+
+  # MongoDB
+  if-db:
+    container_name: if-db
+    image: mongo:3.6
+    restart: always
+    volumes:
+      - /tmp/ideafunnel:/data/db
+    ports:
+      - 27017:27017
+
+  # ELK stack
+  elk:
+    container_name: elk
+    image: sebp/elk
+    restart: always
+    ports:
+      - 5601:5601
+      - 9200:9200
+      - 5044:5044
+
+#  # digital engineering course
+#  if-app:
+#    container_name: if-app
+#    image: manucapco/digitalengineeringcourse:latest
+#    restart: always
+#    ports:
+#      - 8090:8090
+#    depends_on:
+#      - if-db
+#      - elk
