@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: elk
+  name: elk
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: elk
+    spec:
+      containers:
+      - image: sebp/elk
+        name: elk
+        ports:
+        - containerPort: 5601
+        - containerPort: 9200
+        - containerPort: 5044
+        resources: {}
+      restartPolicy: Always
+status: {}

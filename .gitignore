@@ -23,6 +23,7 @@ local.properties
 .gradle/
 test-output/**
 build/**
+deploy/client-secret.json
 
 # External tool builders
 .externalToolBuilders/

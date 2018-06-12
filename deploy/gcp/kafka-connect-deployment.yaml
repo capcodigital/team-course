@@ -1,0 +1,65 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: kafka-connect
+  name: kafka-connect
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka-connect
+    spec:
+      containers:
+      - env:
+        - name: CONNECT_BOOTSTRAP_SERVERS
+          value: kafka1:9092
+        - name: CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR
+          value: "1"
+        - name: CONNECT_CONFIG_STORAGE_TOPIC
+          value: docker-connect-configs
+        - name: CONNECT_GROUP_ID
+          value: compose-connect-group
+        - name: CONNECT_INTERNAL_KEY_CONVERTER
+          value: org.apache.kafka.connect.json.JsonConverter
+        - name: CONNECT_INTERNAL_VALUE_CONVERTER
+          value: org.apache.kafka.connect.json.JsonConverter
+        - name: CONNECT_KEY_CONVERTER
+          value: io.confluent.connect.avro.AvroConverter
+        - name: CONNECT_KEY_CONVERTER_SCHEMA_REGISTRY_URL
+          value: http://kafka-schema-registry:8081
+        - name: CONNECT_LOG4J_LOGGERS
+          value: org.apache.kafka.connect.runtime.rest=WARN,org.reflections=ERROR
+        - name: CONNECT_LOG4J_ROOT_LOGLEVEL
+          value: INFO
+        - name: CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR
+          value: "1"
+        - name: CONNECT_OFFSET_STORAGE_TOPIC
+          value: docker-connect-offsets
+        - name: CONNECT_REST_ADVERTISED_HOST_NAME
+          value: kafka-connect
+        - name: CONNECT_REST_PORT
+          value: "8083"
+        - name: CONNECT_STATUS_STORAGE_REPLICATION_FACTOR
+          value: "1"
+        - name: CONNECT_STATUS_STORAGE_TOPIC
+          value: docker-connect-status
+        - name: CONNECT_VALUE_CONVERTER
+          value: io.confluent.connect.avro.AvroConverter
+        - name: CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL
+          value: http://kafka-schema-registry:8081
+        image: confluentinc/cp-kafka-connect:4.1.0
+        name: kafka-connect
+        ports:
+        - containerPort: 8083
+        resources: {}
+      hostname: kafka-connect
+      restartPolicy: Always
+status: {}

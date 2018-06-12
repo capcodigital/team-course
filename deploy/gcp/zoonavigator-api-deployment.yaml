@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: zoonavigator-api
+  name: zoonavigator-api
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: zoonavigator-api
+    spec:
+      containers:
+      - env:
+        - name: SERVER_HTTP_PORT
+          value: "9000"
+        image: elkozmon/zoonavigator-api:0.4.0
+        name: zoonavigator-api
+        resources: {}
+      restartPolicy: Always
+status: {}

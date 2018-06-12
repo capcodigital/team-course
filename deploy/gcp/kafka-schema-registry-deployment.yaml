@@ -1,0 +1,35 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: kafka-schema-registry
+  name: kafka-schema-registry
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka-schema-registry
+    spec:
+      containers:
+      - env:
+        - name: SCHEMA_REGISTRY_HOST_NAME
+          value: kafka-schema-registry
+        - name: SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL
+          value: zoo1:2181
+        - name: SCHEMA_REGISTRY_LISTENERS
+          value: http://0.0.0.0:8081
+        image: confluentinc/cp-schema-registry:4.1.0
+        name: kafka-schema-registry
+        ports:
+        - containerPort: 8081
+        resources: {}
+      hostname: kafka-schema-registry
+      restartPolicy: Always
+status: {}

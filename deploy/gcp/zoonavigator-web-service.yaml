@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: zoonavigator-web
+  name: zoonavigator-web
+spec:
+  ports:
+  - name: "8004"
+    port: 8004
+    targetPort: 8000
+  selector:
+    io.kompose.service: zoonavigator-web
+status:
+  loadBalancer: {}

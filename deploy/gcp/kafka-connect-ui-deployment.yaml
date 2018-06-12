@@ -1,0 +1,33 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: kafka-connect-ui
+  name: kafka-connect-ui
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka-connect-ui
+    spec:
+      containers:
+      - env:
+        - name: CONNECT_URL
+          value: http://kafka-connect:8083/
+        - name: PROXY
+          value: "true"
+        image: landoop/kafka-connect-ui:0.9.4
+        name: kafka-connect-ui
+        ports:
+        - containerPort: 8000
+        resources: {}
+      hostname: kafka-connect-ui
+      restartPolicy: Always
+status: {}

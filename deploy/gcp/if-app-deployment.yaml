@@ -1,0 +1,27 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: if-app
+  name: if-app
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: if-app
+    spec:
+      containers:
+      - image: manucapco/digitalengineeringcourse:latest
+        name: if-app
+        ports:
+        - containerPort: 8090
+        resources: {}
+      restartPolicy: Always
+status: {}

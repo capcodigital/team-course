@@ -1,0 +1,33 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.13.0 (84fa826)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: kafka-topics-ui
+  name: kafka-topics-ui
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka-topics-ui
+    spec:
+      containers:
+      - env:
+        - name: KAFKA_REST_PROXY_URL
+          value: http://kafka-rest-proxy:8082/
+        - name: PROXY
+          value: "true"
+        image: landoop/kafka-topics-ui:0.9.3
+        name: kafka-topics-ui
+        ports:
+        - containerPort: 8000
+        resources: {}
+      hostname: kafka-topics-ui
+      restartPolicy: Always
+status: {}
