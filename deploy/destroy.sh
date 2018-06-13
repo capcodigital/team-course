@@ -15,6 +15,7 @@ kubectl delete service schema-registry-ui;
 kubectl delete service zoo1;
 kubectl delete service zoonavigator-web;
 kubectl delete service if-db;
+kubectl delete service zoonavigator-api;
 
 kubectl delete deploy elk;
 kubectl delete deploy kafka-connect;
