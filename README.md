@@ -15,7 +15,6 @@ The course is not meant as an extensive training in the specific technologies, a
 To start up the required mongo database, run the following:
 
 ```shell
--f stack.yml up
 docker-compose -f stack.yml up -d if-db
 ```
 
