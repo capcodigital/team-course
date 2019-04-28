@@ -8,6 +8,13 @@ This repo holds the introductory Digital Engineering training course.  The purpo
 
 The course is not meant as an extensive training in the specific technologies, a list or resources have been curated that will be useful for that purpose, as have Pluralsight channels been setup aligned to the Engineering development paths.  
 
+## Contributing
+
+If you would like to contribute to any Capco Digital OSS projects please read:
+
+* [Code of Conduct](https://github.com/capcodigital/.github/blob/master/CODE_OF_CONDUCT.md)
+* [Contributing Guidelines](https://github.com/capcodigital/.github/blob/master/CONTRIBUTING.md)
+
 ## Commands
 
 ### Starting MongoDB
