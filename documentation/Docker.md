@@ -36,7 +36,7 @@ The task involves you setting up and running a newly created docker image and ru
 
 ## Notes:
 
-####Clean build:
+#### Clean build:
 
 To clean, build and run the application as a spring boot application, run: ./gradle clean build bootRun
 

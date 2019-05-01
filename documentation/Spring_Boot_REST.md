@@ -40,7 +40,7 @@ Test your new endpoint by using the [Postman](https://www.getpostman.com/) too
 
 ## Notes:
 
-###Troubleshooting 1:
+### Troubleshooting 1:
 
 For users with > Mac High Sierra:
 
@@ -52,7 +52,7 @@ Instead of the instructed:
 
 `export }}{{PATH=$PATH:/opt/apache-maven/bin`
 
-###Troubleshooting 2:
+### Troubleshooting 2:
 
 If you get this error: 
 `implicit super constructor object() is undefined. must explicitly invoke another constructor it means that your IDE is not recognising JRE. You need it configure your JRE build path ` 
