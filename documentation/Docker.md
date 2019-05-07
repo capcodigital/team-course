@@ -38,7 +38,7 @@ The task involves you setting up and running a newly created docker image and ru
 
 #### Clean build:
 
-To clean, build and run the application as a spring boot application, run: ./gradle clean build bootRun
+To clean, build and run the application as a spring boot application, run: ./gradle clean build bootRun.
 
 This command results in a Mockito Test failure if you have Java 11 installed. You would require a Java 8 to be installed instead.
 
