@@ -7,7 +7,7 @@ The purpose of this space is to give an introductory course to Capco Digital Eng
 If you complete all of the tasks, you will have covered:
 
 -   Creating a Java Spring Boot REST application.
--   Automatic documentation of your REST api.
+-   Automatic documentation of your REST API.
 -   Persisting data in a Mongo Database and will correctly handle exceptions.
 -   Code will be stored in the git source control system, automatically build and uploaded as a Docker container.
 -   Log files will be written to an Elastic Search (ELK) instance.
