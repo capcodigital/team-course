@@ -1,6 +1,6 @@
 # Digital Engineering Training Course
 
-![Capco](assets/capco_logo.jpg)
+![Capco](https://github.com/capcodigital/.github/blob/master/assets/capco_logo.jpg)
 
 ## Purpose
 
