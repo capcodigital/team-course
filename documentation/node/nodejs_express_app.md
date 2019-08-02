@@ -10,14 +10,19 @@ The purpose of this task is to create a simple Node.js Express application that 
 
 Prerequisites:
 
--   [Node 12.7.0](index) or later - <https://nodejs.org/en/>
+-    Node 12.7.0 or later - <https://nodejs.org/en/>
 
--   [NPM]Will be included with your Node installation - For details on how to use it, visit <https://docs.npmjs.com/cli/install>
+-   [NPM] Will be included with your Node installation - For details on how to use it, visit <https://docs.npmjs.com/cli/install>
 
 -   [Postman](https://www.getpostman.com/) - Or any other REST client 
 -   IDE
 
     -   [VS Code](https://code.visualstudio.com)
+
+
+The below link should provide you with a base to build up from.
+
+<https://expressjs.com/en/starter/hello-world.html>
 
 
 Test your new endpoint by using the [Postman](https://www.getpostman.com/) tool, creating a new GET request and examining the body and headers of the response.

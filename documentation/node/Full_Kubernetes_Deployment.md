@@ -1,6 +1,6 @@
 # Full Kubernetes Deployment
 
-The final task is to get all of the code up and running on the Kubernetes cluster. The cluster should run the java application, MongoDB, Kafka and ELK stack. 
+The final task is to get all of the code up and running on the Kubernetes cluster. The cluster should run the Node.js application, MongoDB, Kafka and ELK stack. 
 
 ## Task
 
@@ -8,7 +8,7 @@ The final task is to get all of the code you have worked on up and running on th
 
 When complete, you should expose the following services as load balancers:
 
--   Java App (port 8090)
+-   Node.js App (port 8080)
 -   Kafka-topics-ui (port 8000)
 -   ELK (ports 5601, 9200 and 5044)
 

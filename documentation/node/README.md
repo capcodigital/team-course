@@ -6,13 +6,17 @@ The purpose of this space is to give an introductory course to Capco Digital Eng
 
 If you complete all of the tasks, you will have covered:
 
--   Creating a Java Spring Boot REST application.
--   Automatic documentation of your REST API.
+-   Creating a Node.js Express REST application.
+-   Documentation of your REST API.
 -   Persisting data in a Mongo Database and will correctly handle exceptions.
 -   Code will be stored in the git source control system, automatically build and uploaded as a Docker container.
 -   Log files will be written to an Elastic Search (ELK) instance.
 -   The application will write messages to a Kafka event stream "Topic".
 -   All of this will be hosted on a Kubernetes cluster on the Google Cloud Platform and will be highly scalable.
+
+# Notes
+
+-   Strongly advise reading all steps before starting the induction. Future steps may change the way you complete certain tasks along the way.
 
 # Development Tasks
 
@@ -42,9 +46,11 @@ The development tasks are designed to be small units of work that a new joiner c
 
 The following are suggested reading topics to allow you to complete the development tasks.
 
--   [Java Spring](https://app.pluralsight.com/library/courses/spring-fundamentals/table-of-contents)
+
+-   [Node.js Getting started](https://app.pluralsight.com/library/courses/nodejs-getting-started)
+-   [Node.js API Express & Mongo](https://app.pluralsight.com/library/courses/api-design-nodejs-express-mongo)
+-   [Node Mocha](https://app.pluralsight.com/library/courses/mocha-javascript-testing-nodejs)
 -   [MongoDB](https://app.pluralsight.com/library/courses/mongodb-introduction)
 -   [Docker](https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents)
 -   [ElasticSearch](https://app.pluralsight.com/library/courses/elasticsearch-analyzing-data/table-of-contents)
 -   [Kubernetes (K8s)](https://app.pluralsight.com/library/courses/getting-started-kubernetes/table-of-contents)
-
