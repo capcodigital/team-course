@@ -24,7 +24,7 @@ You can follow a tutorial here: <http://www.baeldung.com/spring-kafka>
 
 > 127.0.0.1    kafka1
 
--   Modify your java code to write to this new topic "test" by following the <http://www.baeldung.com/spring-kafka> example. You only require the Producer Config and Sending messages section (4.1 and 4.2).
+-   Modify your Node.js code to write to this new topic "test" by following the <http://www.baeldung.com/spring-kafka> example. You only require the Producer Config and Sending messages section (4.1 and 4.2).
 
 -   Write to the topic e.g. on POSTing a new USER
 -   Check that the message is received on the topic
@@ -39,24 +39,16 @@ You can follow a tutorial here: <http://www.baeldung.com/spring-kafka>
 
 <!-- -->
 
--   For an application running in your local machine (eclipse or any other IDEA):
+-   For an application running in your local machine:
 
           In your Kafka producer, make sure the address is localhost + port in this case the port is 9092
 
       
->  public class KafkaProducerConfig 
->
->  {
->
->        private String bootstrapAddress = "localhost:9092";
+>   var bootstrapAddress = "localhost:9092";
 
          In your application running in your container your address need to be kafka1, the same name mapped to localhost in our host file
 
->  public class KafkaProducerConfig 
->
->  {
->
->        private String bootstrapAddress = "kafka1:9092";
+>   var bootstrapAddress = "kafka1:9092";
 
 -   Make sure that all your containers (application, database, kafka, etc...) are running under the same network
 

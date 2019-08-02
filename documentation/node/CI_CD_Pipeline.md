@@ -2,7 +2,7 @@
 
 ## Task
 
-The task is to setup the CircleCI continuous integration tool to automatically build the java application. 
+The task is to setup the CircleCI continuous integration tool to automatically build the Node.js application. 
 
 -   Browse to circleci.com and login with your github account.
 -   Give access to your account and setup the project which you added to git in the previous task. 

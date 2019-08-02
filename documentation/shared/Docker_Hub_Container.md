@@ -1,6 +1,6 @@
 # Docker Hub Container
 
-The purpose of this task is to create a docker container with your java code available on the docker hub. This can then be automatically downloaded by a cloud platform and made available on the web.
+The purpose of this task is to create a docker container with your code available on the docker hub. This can then be automatically downloaded by a cloud platform and made available on the web.
 
 ![](attachments/429031435/523141124.png?height=400)
 

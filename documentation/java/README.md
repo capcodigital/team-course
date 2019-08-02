@@ -30,11 +30,11 @@ The development tasks are designed to be small units of work that a new joiner c
 | 6   | [GET/POST data from MongoDB ](GET_POST_data_from_MongoDB.md)             | Create 2 new endpoints which read/write data to the MongoDB      |
 | 7   | [Error Handling ](Error_Handling.md)          | REST response codes                                              |
 | 8   | [Logging ](Logging.md)                        | Implement logging on your application                            |
-| 9   | [Advanced Logging ](Advanced_Logging.md)      | ELK implementation                                               |
+| 9   | [Advanced Logging ](../shared/Advanced_Logging.md)      | ELK implementation                                               |
 | 10  | [Source Control ](Source_Control.md)          | Storing your code in git                                         |
 | 11  | [CI](CI_CD_Pipeline.md)                                                                                          | Continuous Integration - automatic build of your code            |
-| 12  | [Docker Hub Container](Docker_Hub_Container.md)                                                                  | Create a container on Docker Hub                                 |
-| 13  | [Container Orchestration](Container_Orchestration.md)                                                            | Deploy to the cloud and make your code scalable using Kubernetes |
+| 12  | [Docker Hub Container](../shared/Docker_Hub_Container.md)                                                                  | Create a container on Docker Hub                                 |
+| 13  | [Container Orchestration](../shared/Container_Orchestration.md)                                                            | Deploy to the cloud and make your code scalable using Kubernetes |
 | 14  | [Stream Processing](Stream_Processing.md)                                                                        | Kafka processing                                                 |
 | 15  | [Full Kubernetes Deployment](Full_Kubernetes_Deployment.md)                                                      | Deploy App, Mongo, Kafka and ELK to Kubernetes                   |
 
