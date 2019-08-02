@@ -1,6 +1,6 @@
 # Stream Processing
 
- The purpose of this task is to setup a Kafka/Zookeeper docker installation and to write events from our java application to a new topic.
+ The purpose of this task is to setup a Kafka/Zookeeper docker installation and to write events from our Node.js application to a new topic.
 
 ## Task
 

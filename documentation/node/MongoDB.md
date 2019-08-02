@@ -1,6 +1,6 @@
 # MongoDB
 
-The purpose of this task is to add a database connection to the java application. For now, there is no need to use the connection, but you should confirm that the database connection is up and running and available for use. 
+The purpose of this task is to add a database connection to the Node.js application. For now, there is no need to use the connection, but you should confirm that the database connection is up and running and available for use. 
 
 ## PluralSight
 
@@ -9,7 +9,7 @@ The purpose of this task is to add a database connection to the java application
 ## Task
 
 -   Firstly, setup a local MongoDB and confirm that you can connect to it. You can either do a local installation or use a docker container running MongoDB. You can use a tool such as Studio 3T to practice inserting and deleting rows and running some basic operations on the database.
--   Secondly, create a connection to this database in your java application. Consider where the connection details to this database should be held (in code or a configuration file). Write a simple method which should be run when you boot up your Spring Boot application which confirms that the database is running and that you can connect to it.
+-   Secondly, create a connection to this database in your Node.js application. Consider where the connection details to this database should be held (in code or a configuration file). Write a simple method which should be run when you boot up your Spring Boot application which confirms that the database is running and that you can connect to it.
 
 ## Output
 

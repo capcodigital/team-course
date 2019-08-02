@@ -40,7 +40,7 @@ The development tasks are designed to be small units of work that a new joiner c
 | 12  | [Docker Hub Container](../shared/Docker_Hub_Container.md)                                                                  | Create a container on Docker Hub                                 |
 | 13  | [Container Orchestration](../shared/Container_Orchestration.md)                                                            | Deploy to the cloud and make your code scalable using Kubernetes |
 | 14  | [Stream Processing](Stream_Processing.md)                                                                        | Kafka processing                                                 |
-| 15  | [Full Kubernetes Deployment](Full_Kubernetes_Deployment.md)                                                      | Deploy App, Mongo, Kafka and ELK to Kubernetes                   |
+| 15  | [Full Kubernetes Deployment](../shared/Full_Kubernetes_Deployment.md)                                                      | Deploy App, Mongo, Kafka and ELK to Kubernetes                   |
 
 ## PluralSight Courses
 

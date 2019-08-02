@@ -11,7 +11,7 @@ This requires that the previous [GET/POST data from MongoDB](GET_POST_data_from
 -   Create a new "GET /users/{userId}" endpoint. This will retrieve a single User from the MongoDB based on the ID. 
 -   Ensure that the endpoint returns a 404 HTTP status code if an invalid ID is specified (the ID does not exist in the database).
 -   Ensure that the existing "POST /users" endpoint returns a HTTP status code of 201 if the user is successfully added to the database.
--   Add integration tests to the java code which test that a 404 and 201 HTTP status code are returned based on the above conditions.
+-   Add integration tests to the Node.js code which test that a 404 and 201 HTTP status code are returned based on the above conditions.
 
 ![](attachments/418840659/426409985.png?height=250)
 
