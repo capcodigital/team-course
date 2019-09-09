@@ -25,6 +25,8 @@ Your tests should be held within a separate folder:
 
 which will allow tools which monitor the code coverage of the tests to ignore the tests themselves. You should download the <https://www.sonarqube.org/> plugin to ensure that the tests you have written cover all of the code.
 
+If you're using the IntelliJ IDE, sonarqube/sonarscanner is not required. You can right-click your src/test folder and select Run 'Tests' in 'package-name' with coverage. This will generate a coverage report for your tests which is visible inside the IDE. 
+
 Helpful links:
 
 [Spring mvc test framework guide](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#spring-mvc-test-framework)

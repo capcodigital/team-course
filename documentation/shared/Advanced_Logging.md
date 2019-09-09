@@ -19,9 +19,11 @@ The task is to run the ELK stack using a docker container, to forward to the log
 
 ### Setting up ELK stack
 
+Docker has a default setting which limits the memory resource available to the Docker Engine to 2GiB. In order to complete the following steps you will need at least 4GiB of memory allocated to Docker. To change this go to Docker -> Preferences -> Advanced -> Memory 4GiB.
+
 You can run the ELK stack by running the following command:
 
->     sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:630
+>     docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:630
 
 Check that you can view the Kibana page on your local server: <http://localhost:5601/>
 
@@ -33,7 +35,7 @@ In a separate terminal, find the name of your ELK docker container:
 
 Then start a bash session on that container ("elk" is the docker name of my container):
 
->     sudo docker exec -it elk /bin/bash
+>     docker exec -it elk /bin/bash
 >
 >     /opt/logstash/bin/logstash --path.data /tmp/logstash/data -e 'input { stdin { } } output { elasticsearch { hosts => ["localhost"] } }'
 

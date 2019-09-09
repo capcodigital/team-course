@@ -4,7 +4,7 @@ This task is designed to automatically generate the API documentation for the ap
 
 ## Task
 
-You can follow a tutorial here: <http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api>. The task is to add swagger to your Java application. When complete, you should be able to browse to the [http://localhost:8090/swagger-ui.html](http://localhost/swagger-ui.html)page and view the api documentation for your "GET /helloWorld" endpoint.
+You can follow a tutorial here: <http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api>. Please only follow steps 1-5, OAuth Security is not a required implementation. The task is to add swagger to your Java application. When complete, you should be able to browse to the [http://localhost:8090/swagger-ui.html](http://localhost/swagger-ui.html)page and view the api documentation for your "GET /helloWorld" endpoint.
 
 -   You will need to add the "springfox-swagger2" and "springfox-swagger-ui" dependencies to your project and setup a configuration of which endpoints to document.
 -   You should also create or modify an "application.properties" file to setup your application to run on a specified port (not 8080).
