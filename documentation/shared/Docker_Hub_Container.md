@@ -14,14 +14,13 @@ The purpose of this task is to create a docker container with your code availabl
 
 ![](attachments/429031435/429129752.png?height=250)
 
--   Go to <http://hub.docker.com> and create a new personal account
--   Create a new **public **repository with "Create Repository" named e.g. "username-capco/digitalengineeringcourse" 
+- Go to <http://hub.docker.com> and create a new personal account
+- Create a new **public **repository with "Create Repository" named e.g. "username-capco/digitalengineeringcourse"
 
 ![](attachments/429031435/428965910.png?height=250)
 
--   Choose "Create Automated Build" and grant access to your github account. Choose the option again and choose the github repo where your code is stored and kick off a build of the docker container.
--   Ensure that the jar file of your project is uploaded to GitHub in order for Docker to succeed in creating an automated build. Standard java .gitignore files will have removed your /build folder.
--   Download the docker container to your local machine. As the repository is private, you will need to login to docker first and replace the name of the repository with your own:
->     docker login
->
->     docker run -p 8090:8090 [username]/[reponame]:latest
+- Choose "Create Automated Build" and grant access to your github account. Choose the option again and choose the github repo where your code is stored and kick off a build of the docker container.
+- Download the docker container to your local machine. As the repository is private, you will need to login to docker first and replace the name of the repository with your own:
+  >     docker login
+  >
+  >     docker run -p 8090:8090 [username]/[reponame]:latest
