@@ -2,9 +2,9 @@
 
 The purpose of this task is to create a simple Node.js Express application that hosts a single RESTful endpoint "GET /helloWorld". The task is designed to get you familiar with the Capco Digital Engineering coding standards and practices and end up with a working development environment. 
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/node-js-express-rest-web-services-update/table-of-contents> - Optional beginner's course on Node.js and Express
+<https://capco.udemy.com/course/node-js-mongo-db-2018/> - Optional beginner's course on Node.js and Express
 
 ## Task
 

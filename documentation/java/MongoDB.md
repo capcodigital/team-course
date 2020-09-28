@@ -2,9 +2,9 @@
 
 The purpose of this task is to add a database connection to the java application. For now, there is no need to use the connection, but you should confirm that the database connection is up and running and available for use. 
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/mongodb-introduction> - Introduction to MongoDB
+<https://capco.udemy.com/course/mongodb-the-complete-developers-guide/> - Introduction to MongoDB
 
 ## Task
 
