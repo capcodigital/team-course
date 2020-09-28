@@ -6,7 +6,7 @@
 
 This repo holds the introductory Digital Engineering training course.  The purpose of the course is to provide a good introduction to technologies that are commonly used by Capco Digital on client engagements.
 
-The course is not meant as an extensive training in the specific technologies, a list or resources have been curated that will be useful for that purpose, as have Pluralsight channels been setup aligned to the Engineering development paths.  
+The course is not meant as an extensive training in the specific technologies, a list or resources have been curated that will be useful for that purpose, as have Udemy channels been setup aligned to the Engineering development paths.  
 
 ## Contributing
 

@@ -4,9 +4,9 @@ The purpose of this task is to create a simple Java Spring Boot application with
 
 You should refer to the following Capco standards page to complete the task: [Java Standards](https://google.github.io/styleguide/javaguide.html)
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/spring-fundamentals/table-of-contents> - Optional beginner's course on Spring
+<https://capco.udemy.com/course/spring-5-with-spring-boot-2/> - Optional beginner's course on Spring
 
 ## Task
 

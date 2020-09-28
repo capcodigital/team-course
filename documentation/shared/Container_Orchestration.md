@@ -2,9 +2,9 @@
 
 Container Orchestration refers to the automated arrangement, coordination, and management of software containers. In this task, you will deploy the applications docker container on to a Kubernetes (K8s) cluster. 
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/getting-started-kubernetes/table-of-contents>
+<https://capco.udemy.com/course/learn-kubernetes/>
 
 ## Task
 

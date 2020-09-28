@@ -1,6 +1,6 @@
 # Source Control
 
-Add all of your code into the [capcodigital](https://github.com/capcodigital) github organisation. Ensure that you have reviewed the [Git flow Branching](https://ilabs-capco.atlassian.net/wiki/spaces/BPG/pages/411369488/Git+flow+Branching) guidelines for Capco. 
+Add all of your code into the [capcodigital](https://github.com/capcodigital) github organisation. Ensure that you have reviewed the [Git flow Branching](https://ilabs-capco.atlassian.net/wiki/spaces/BPG/pages/1355448321/Source+Code+Management) guidelines for Capco. 
 
 ## Task
 
