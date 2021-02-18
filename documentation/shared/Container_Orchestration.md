@@ -59,7 +59,7 @@ The aim of this task is to deploy the java application to a Kubernetes cluster. 
 
 >     kubectl version
 
--   Take the attached example [kubectl.yml](attachments/418644157/437846035.xml) file and modify it to contain your docker image and tag. Run the following command:
+-   Take the attached example [kubectl.yml](shared/attachments/418644157/437846035.xml) file and modify it to contain your docker image and tag. Run the following command:
 
 >     kubectl create -f kubectl.yml
 
