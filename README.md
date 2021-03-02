@@ -15,6 +15,10 @@ If you would like to contribute to any Capco Digital OSS projects please read:
 * [Code of Conduct](https://github.com/capcodigital/.github/blob/master/CODE_OF_CONDUCT.md)
 * [Contributing Guidelines](https://github.com/capcodigital/.github/blob/master/CONTRIBUTING.md)
 
+## Requirements
+
+- Java 8 is required to build and run the application.
+
 ## Commands
 
 ### Starting MongoDB
@@ -46,7 +50,7 @@ gradle docker
 To run the required dependencies using docker containers, run:
 
 ```shell
-docker-compose up -d
+docker-compose -f stack.yml up -d
 ```
 
 ### Running the Application
