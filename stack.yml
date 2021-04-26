@@ -170,7 +170,7 @@ services:
       - 9200:9200
       - 5044:5044
 
-#  # digital engineering course
+  # digital engineering course
 #  if-app:
 #    container_name: if-app
 #    image: manucapco/digitalengineeringcourse:latest
@@ -180,3 +180,5 @@ services:
 #    depends_on:
 #      - if-db
 #      - elk
+#    environment:
+#      MONGO_HOST: if-db

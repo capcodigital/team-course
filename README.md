@@ -17,7 +17,7 @@ If you would like to contribute to any Capco Digital OSS projects please read:
 
 ## Requirements
 
-- Java 8 is required to build and run the application.
+- Java 8-11 is required to build and run the application.
 
 ## Commands
 
@@ -52,6 +52,19 @@ To run the required dependencies using docker containers, run:
 ```shell
 docker-compose -f stack.yml up -d
 ```
+
+### Test Coverage Report
+
+To generate a Jacoco test coverage report, run:
+
+```shell
+./gradlew clean check
+```
+The report can be viewed at:
+```shell
+/digital-engineering-course/build/reports/jacoco/test/html/index.html
+```
+
 
 ### Running the Application
 
