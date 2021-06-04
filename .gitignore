@@ -21,6 +21,7 @@ local.properties
 .settings/
 .loadpath
 .gradle/
+!gradle/wrapper/gradle-wrapper.jar
 test-output/**
 build/**
 deploy/client-secret.json

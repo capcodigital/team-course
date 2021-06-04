@@ -29,6 +29,27 @@ To start up the required mongo database, run the following:
 docker-compose -f stack.yml up -d if-db
 ```
 
+### Pre-Requisite / Trouble Shooting
+This repo is configured using gradlewrapper of 4.8 version, however if you already have higher version of gradle, 
+and if you attempt to run gradle commands instead of ./gradlew command, you will see some errors like
+Could not find method compile(), as its removed from latest gradle versions.
+
+Manage multiple version of gradle in your local machine
+Checkout [SDKMAN](https://sdkman.io/) This is version manager for many tools like gradle, groovy. Install it following
+the instructions. Pretty easy for mac / linux
+
+### To check available versions
+
+```shell
+sdk list gradle
+```
+### To install and user particular version
+
+```shell
+sdk install gradle 7.0
+sdk use gradle 7.0
+```
+
 ### Clean, Build & Run the Application
 
 To clean, build and run the application execute the following command:
@@ -42,7 +63,7 @@ To clean, build and run the application execute the following command:
 To build the application as a docker file, run the following:
 
 ```shell
-gradle docker
+./gradlew docker
 ```
 
 ### Running Required Dependencies using Docker

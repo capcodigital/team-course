@@ -60,4 +60,7 @@ jacocoTestReport {
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.8'
+}
 check.dependsOn jacocoTestReport
