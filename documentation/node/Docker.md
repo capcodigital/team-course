@@ -2,9 +2,9 @@
 
 This task involves taking the application which was created in the [Spring Boot REST](Spring_Boot_REST) task and moving it into a Docker container.
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents>
+<https://capco.udemy.com/course/learn-docker/>
 
 ## Task
 

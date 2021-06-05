@@ -2,9 +2,9 @@
 
 This task will involve setting up the [ELK stack](https://www.elastic.co/products) and monitoring log files using Kibana. 
 
-## PluralSight
+## Udemy
 
-<https://app.pluralsight.com/library/courses/elasticsearch-analyzing-data/table-of-contents>
+<https://capco.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/>
 
 ## Task
 

@@ -38,13 +38,13 @@ The development tasks are designed to be small units of work that a new joiner c
 | 14  | [Stream Processing](Stream_Processing.md)                                                                        | Kafka processing                                                 |
 | 15  | [Full Kubernetes Deployment](../shared/Full_Kubernetes_Deployment.md)                                                      | Deploy App, Mongo, Kafka and ELK to Kubernetes                   |
 
-## PluralSight Courses
+## Udemy Courses
 
 The following are suggested reading topics to allow you to complete the development tasks.
 
--   [Java Spring](https://app.pluralsight.com/library/courses/spring-fundamentals/table-of-contents)
--   [MongoDB](https://app.pluralsight.com/library/courses/mongodb-introduction)
--   [Docker](https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents)
--   [ElasticSearch](https://app.pluralsight.com/library/courses/elasticsearch-analyzing-data/table-of-contents)
--   [Kubernetes (K8s)](https://app.pluralsight.com/library/courses/getting-started-kubernetes/table-of-contents)
+-   [Java Spring](https://capco.udemy.com/course/spring-5-with-spring-boot-2/)
+-   [MongoDB](https://capco.udemy.com/course/mongodb-the-complete-developers-guide/)
+-   [Docker](https://capco.udemy.com/course/learn-docker/)
+-   [ElasticSearch](https://capco.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/)
+-   [Kubernetes (K8s)](https://capco.udemy.com/course/learn-kubernetes/)
 

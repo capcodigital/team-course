@@ -6,9 +6,9 @@ The purpose of this task is to create a docker container with your code availabl
 
 ## Links:
 
-[resources/db.properties](https://github.com/capcodigital/digitalengineeringcourse/blob/master/src/main/resources/db.properties)
+[resources/db.properties](https://github.com/capcodigital/team-course/blob/master/src/main/resources/db.properties)
 
-[database/DatabaseConnection.java](https://github.com/capcodigital/digitalengineeringcourse/blob/master/src/main/java/com/capco/digital/engineering/database/DatabaseConnection.java)
+[database/DatabaseConnection.java](https://github.com/capcodigital/team-course/blob/master/src/main/java/com/capco/digital/engineering/database/DatabaseConnection.java)
 
 ## Below is a guide on how to create a repo on docker hub:
 
