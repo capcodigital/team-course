@@ -1,37 +1,37 @@
 # Digital Engineer Induction Course
 
-# Introduction
+## Introduction
 
-The purpose of this space is to give an introductory course to Capco Digital Engineers. It is designed so that new and established engineers can be given some pre-defined tasks which will allow new joiners to get familiar with the technology, standards and practices and training that are used and available to us at Capco. The course will be split into development and training tasks. 
+The purpose of this space is to give an introductory course to Capco Digital Engineers. It is designed so that new and established engineers can be given some pre-defined tasks which will allow new joiners to get familiar with the technology, standards and practices and training that are used and available to us at Capco. The course will be split into development and training tasks.
 
 If you complete all of the tasks, you will have covered:
 
--   Creating a Java Spring Boot REST application.
--   Automatic documentation of your REST API.
--   Persisting data in a Mongo Database and will correctly handle exceptions.
--   Code will be stored in the git source control system, automatically build and uploaded as a Docker container.
--   Log files will be written to an Elastic Search (ELK) instance.
--   The application will write messages to a Kafka event stream "Topic".
--   All of this will be hosted on a Kubernetes cluster on the Google Cloud Platform and will be highly scalable.
+* Creating a Java Spring Boot REST application.
+* Automatic documentation of your REST API.
+* Persisting data in a Mongo Database and will correctly handle exceptions.
+* Code will be stored in the git source control system, automatically build and uploaded as a Docker container.
+* Log files will be written to an Elastic Search (ELK) instance.
+* The application will write messages to a Kafka event stream "Topic".
+* All of this will be hosted on a Kubernetes cluster on the Google Cloud Platform and will be highly scalable.
 
-# Development Tasks
+## Development Tasks
 
 The development tasks are designed to be small units of work that a new joiner can research and complete individually or collaborate with other colleagues.
 
 |     |                                                                                                               |                                                                  |
 |-----|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | No. | Task                                                                                                          | Description                                                      |
-| 0   | [Recommended Topics ](Recommended_Topics.md) | Suggested topics to get familiar with some of the basic concepts |
-| 1   | [Spring Boot REST ](Spring_Boot_REST.md)      | Create a Spring Boot application with a single RESTful endpoint. |
-| 2   | [Docker ](Docker.md)                          | Put the application into a Docker container                      |
-| 3   | [API Documentation ](API_Documentation.md)    | Add automatic generation of API documentation e.g. Swagger       |
-| 4   | [MongoDB ](MongoDB.md)                        | Add a mongo database to your application                         |
-| 5   | [Testing ](Testing.md)                        | Create unit and integration tests for your application.          |
-| 6   | [GET/POST data from MongoDB ](GET_POST_data_from_MongoDB.md)             | Create 2 new endpoints which read/write data to the MongoDB      |
-| 7   | [Error Handling ](Error_Handling.md)          | REST response codes                                              |
-| 8   | [Logging ](Logging.md)                        | Implement logging on your application                            |
-| 9   | [Advanced Logging ](../shared/Advanced_Logging.md)      | ELK implementation                                               |
-| 10  | [Source Control ](Source_Control.md)          | Storing your code in git                                         |
+| 0   | [Recommended Topics](Recommended_Topics.md) | Suggested topics to get familiar with some of the basic concepts |
+| 1   | [Spring Boot REST](Spring_Boot_REST.md)      | Create a Spring Boot application with a single RESTful endpoint. |
+| 2   | [Docker](Docker.md)                          | Put the application into a Docker container                      |
+| 3   | [API Documentation](API_Documentation.md)    | Add automatic generation of API documentation e.g. Swagger       |
+| 4   | [MongoDB](MongoDB.md)                        | Add a mongo database to your application                         |
+| 5   | [Testing](Testing.md)                        | Create unit and integration tests for your application.          |
+| 6   | [GET/POST data from MongoDB](GET_POST_data_from_MongoDB.md)             | Create 2 new endpoints which read/write data to the MongoDB      |
+| 7   | [Error Handling](Error_Handling.md)          | REST response codes                                              |
+| 8   | [Logging](Logging.md)                        | Implement logging on your application                            |
+| 9   | [Advanced Logging](../shared/Advanced_Logging.md)      | ELK implementation                                               |
+| 10  | [Source Control](Source_Control.md)          | Storing your code in git                                         |
 | 11  | [CI](CI_CD_Pipeline.md)                                                                                          | Continuous Integration - automatic build of your code            |
 | 12  | [Docker Hub Container](../shared/Docker_Hub_Container.md)                                                                  | Create a container on Docker Hub                                 |
 | 13  | [Container Orchestration](../shared/Container_Orchestration.md)                                                            | Deploy to the cloud and make your code scalable using Kubernetes |
@@ -42,9 +42,8 @@ The development tasks are designed to be small units of work that a new joiner c
 
 The following are suggested reading topics to allow you to complete the development tasks.
 
--   [Java Spring](https://capco.udemy.com/course/spring-5-with-spring-boot-2/)
--   [MongoDB](https://capco.udemy.com/course/mongodb-the-complete-developers-guide/)
--   [Docker](https://capco.udemy.com/course/learn-docker/)
--   [ElasticSearch](https://capco.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/)
--   [Kubernetes (K8s)](https://capco.udemy.com/course/learn-kubernetes/)
-
+* [Java Spring](https://capco.udemy.com/course/spring-5-with-spring-boot-2/)
+* [MongoDB](https://capco.udemy.com/course/mongodb-the-complete-developers-guide/)
+* [Docker](https://capco.udemy.com/course/learn-docker/)
+* [ElasticSearch](https://capco.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/)
+* [Kubernetes (K8s)](https://capco.udemy.com/course/learn-kubernetes/)

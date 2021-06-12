@@ -1,6 +1,6 @@
 # Security
 
-The purpose of this task is to add Spring Security to the web application. 
+The purpose of this task is to add Spring Security to the web application.
 
 ## Udemy
 

@@ -10,5 +10,4 @@ public abstract class AbstractTest extends AbstractTestNGSpringContextTests {
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
     }
-
 }

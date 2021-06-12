@@ -4,26 +4,19 @@ This task involves taking the application which was created in the [Spring Boot
 
 ## Udemy
 
-<https://capco.udemy.com/course/learn-docker/>
+[Learn Docker](https://capco.udemy.com/course/learn-docker)
 
 ## Task
 
-Prerequisites:
+### Prerequisites
 
-<https://docs.docker.com/installation/#installation>
+[Install Docker](https://docs.docker.com/installation/#installation)
 
-The task involves you setting up and running a newly created docker image and running your application using that docker image. You can follow the tutorial here using Npm: <https://nodejs.org/de/docs/guides/nodejs-docker-webapp/>. 
+### Steps
 
+The task involves you setting up and running a newly created docker image and running your application using that docker image. You can follow the tutorial [here](https://nodejs.org/de/docs/guides/nodejs-docker-webapp) using `npm`.
 
--   Create a Dockerfile for your application
-
--   Build your container using something similar to the below (given you are in the same folder as your Dockerfile).
-
->     docker build -t MyUser/ImageName .
-
--   Run your container using something similar to the below.
-
->     docker run -p 8080:8080 -t myDockerImage
-
-
--   Test that your application functions correctly when running in the docker container.
+* Create a `Dockerfile` for your application
+* Build your container using something similar to `docker build -t MyUser/ImageName .`
+* Run your container using something similar to `docker run -p 8080:8080 -t myDockerImage`
+* Test that your application functions correctly when running in the docker container.
