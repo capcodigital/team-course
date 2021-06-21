@@ -1,0 +1,38 @@
+repos:
+
+- repo: https://github.com/igorshubovych/markdownlint-cli
+  rev: v0.27.1
+  hooks:
+  - id: markdownlint
+    name: markdown linting
+
+- repo: https://github.com/yelp/detect-secrets.git
+  rev: v0.13.1
+  hooks:
+  -   id: detect-secrets
+      name: detect secrets
+      args: ['--baseline', '.secrets.baseline']
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.4.0
+  hooks:
+    - id: trailing-whitespace
+      name: trailing whitespace
+    - id: end-of-file-fixer
+      name: end of file fixer
+    - id: check-added-large-files
+      name: check large files
+    - id: check-yaml
+      name: check yaml
+
+- repo: https://github.com/gruntwork-io/pre-commit
+  rev: v0.1.12
+  hooks:
+    - id: shellcheck
+      name: shell validation
+
+- repo: https://github.com/syntaqx/git-hooks
+  rev: v0.0.17
+  hooks:
+    - id: circleci-config-validate
+      name: circleci validation
