@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:16-ea-29-oraclelinux8
 VOLUME /tmp
 EXPOSE 8090
 
