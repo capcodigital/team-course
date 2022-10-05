@@ -1,6 +1,6 @@
 # Source Control
 
-Add all of your code to your personal Capco GitHub account, you can find instructions on setting this up here - [Atlassian](https://ilabs-capco.atlassian.net/wiki/spaces/BPG/pages/812580874/Capco+Digital+Github+Organisation+Contributions). Have a read through [Trunk Based Development Docs](https://trunkbaseddevelopment.com/) to familiarise yourself with best practises for Capco.
+Add all of your code to your personal Capco GitHub account, you can find instructions on setting this up here - [Capco Open Source](https://ilabs-capco.atlassian.net/wiki/spaces/BPG/pages/763035816/Open+Source). Have a read through [Trunk Based Development Docs](https://trunkbaseddevelopment.com/) to familiarise yourself with best practises for Capco.
 
 ## Task
 
