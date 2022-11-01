@@ -21,19 +21,26 @@ The task is to run the ELK stack using a docker container, to forward to the log
 
 Docker has a default setting which limits the memory resource available to the Docker Engine to 2GiB. In order to complete the following steps you will need at least 4GiB of memory allocated to Docker. To change this go to Docker -> Preferences -> Advanced -> Memory 4GiB.
 
-To run ELK stack on a Mac, you will need to build the image for the ARM64 architecture. You can do this by cloning the elk-docker source files from the [Git repository](https://github.com/spujadas/elk-docker).
-
-Enter the directory containing the source files and run the following command to build ELK stack for ARM64:
+You can run ELK stack by executing the following command:
 
 ```shell
-docker build -t elk-arm64 --build-arg IMAGE=master-arm64 --build-arg ARCH=aarch64 .
+docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:630
 ```
 
-You can run ELK stack by then executing the following command:
-
-```shell
-docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk elk-arm64
-```
+> **Note**
+>
+> If you receive the following warning: 
+> ```shell
+> WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+> ```
+>  
+> You are on a Mac with ARM64 architecture, and will need to build the image yourself. You can do this by cloning the elk-docker source files from the [Git repository](https://github.com/spujadas/elk-docker).
+> 
+> Enter the directory containing the source files and run the following command to build ELK stack for ARM64:
+> 
+> ```shell
+> docker build -t elk-arm64 --build-arg IMAGE=master-arm64 --build-arg ARCH=aarch64 .
+> ```
 
 Check that you can view the Kibana page on your local server [here](http://localhost:5601).
 
